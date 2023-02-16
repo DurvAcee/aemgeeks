@@ -25,12 +25,12 @@
                         fieldLabel="Last Name"
                         name="./lname"
                         required="{Boolean}false"/>
-                    <employed
+                    <isEmployed
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
                         checked="{Boolean}false"
                         fieldDescription="When checked, The programmer is employed"
-                        name="./employed"
+                        name="./isEmployed"
                         text="Programmer is employed?"
                         uncheckedValue="{Boolean}false"
                         value="{Boolean}true"/>

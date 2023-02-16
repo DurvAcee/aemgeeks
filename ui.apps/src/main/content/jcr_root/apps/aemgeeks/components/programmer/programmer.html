@@ -1,7 +1,8 @@
-<h1>Programmer Bio</h1>
-<div data-sly-use.programmer="${'com.aem.geeks.core.models.Programmer'}">
+<div>
+    <h1>Programmer Bio</h1>
+    <sly data-sly-use.programmer="${'com.aem.geeks.core.models.Programmer'}">    </sly>
 
-    <div>First Name :  ${programmer.fname} </div>
-    <div>Last Name :  ${programmer.lname}   </div>
-    <div>Is Employed:  ${programmer.isEmployed}  </div>
-    </div>
+        <div>First Name :  ${programmer.fname} </div>
+        <div>Last Name :  ${programmer.lname}   </div>
+        <div>Is Employed:  ${programmer.isEmployed}  </div>
+</div>
